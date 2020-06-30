@@ -8,8 +8,7 @@ var r = readline.createInterface({
 
 r.on("line", function (line) {
   var vals = line.split(" ")
-  var input = parseInt(vals[0])
-  let n
+  var input = Number(vals[0])
 
   let result = []
   while (true) {
